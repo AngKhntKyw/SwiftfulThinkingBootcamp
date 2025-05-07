@@ -14,6 +14,8 @@ struct ContentView: View {
             .font(.subheadline)
             .fontWeight(.semibold)
             .foregroundColor(Color.blue)
+            .frame(maxWidth: .init(),maxHeight: .infinity)
+            .background(.red)
         
     }
 }
