@@ -3,7 +3,7 @@
 //  SwiftfulThinkingBootcamp
 //
 //  Created by Digital Base on 8/5/25.
-//
+
 
 import SwiftUI
 
@@ -31,6 +31,8 @@ struct ToggleBootcamp: View {
         .padding(.horizontal,100)
     }
 }
+
+
 
 #Preview {
     ToggleBootcamp()
