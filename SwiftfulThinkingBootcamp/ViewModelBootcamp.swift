@@ -14,6 +14,7 @@ struct Fruit: Identifiable {
 }
 
 class FruitViewModel: ObservableObject {
+    
     @Published var fruitArray: [Fruit] = []
     @Published var isLoading: Bool = false
     
