@@ -13,7 +13,9 @@ struct SwiftfulThinkingBootcampApp: App {
         WindowGroup {
 //            ContentView()
 //            AppStorageBootcamp()
-            IntroView()
+//            IntroView()
+//            SubmitTextFieldBootcamp()
+            NavigationStackBootcamp()
         }
     }
 }
