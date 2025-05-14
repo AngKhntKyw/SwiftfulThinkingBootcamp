@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+//@available(iOS, introduced: 13.0, deprecated: 15.0, message: "Use withAnimation or animation(_:value:) instead.")
+@available(*, introduced: 13.0, deprecated: 15.0, message: "Use AnimationUpdatedBootcamp instead.")
+
+
 struct AnimationBootcamp: View {
     
     @State var isAnimated: Bool = false
@@ -36,6 +40,8 @@ struct AnimationBootcamp: View {
         
     }
 }
+
+
 
 #Preview {
     AnimationBootcamp()
